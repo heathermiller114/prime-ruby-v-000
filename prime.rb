@@ -1,5 +1,5 @@
 # Add  code here!
-require benchmark
+require 'benchmark'
 
 def prime?(number)
   if number <= 1
