@@ -27,3 +27,5 @@ def primee?(number)
   end
 end
 # this method gets rid of one 'true' statement, making it shorter
+
+puts Benchmark.measure
