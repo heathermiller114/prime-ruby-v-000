@@ -26,7 +26,6 @@ def primee?(number)
     true
   end
 end
-# this method gets rid of one 'true' statement, making it shorter
 
 puts Benchmark.bm(1000) do |bm|
   bm.report('prime 1')  { prime?(1000)}
