@@ -17,7 +17,7 @@ def prime?(number)
 end
 
 
-def prime?(number)
+def primee?(number)
   if number <= 1
     false
   elsif (2...number-1).any?{|x| number % x == 0}
