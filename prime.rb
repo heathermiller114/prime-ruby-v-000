@@ -29,7 +29,8 @@ end
 # this method gets rid of one 'true' statement, making it shorter
 
 puts Benchmark.bmdo |bm|
-  
+  bm.report{prime?(1...1000)}
+  bm.report{primee?(1...1000)}
   
   
   
