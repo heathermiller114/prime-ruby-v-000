@@ -31,6 +31,7 @@ end
 puts Benchmark.bmdo |bm|
   bm.report{prime?(1...1000)}
   bm.report{primee?(1...1000)}
+end
   
   
   
