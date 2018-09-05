@@ -11,4 +11,4 @@ def prime?(number)
   end
 end
 
-putsBenchmark.measure
+puts Benchmark.measure{prime?}
