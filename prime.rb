@@ -1,4 +1,6 @@
 # Add  code here!
+require benchmark
+
 def prime?(number)
   if number <= 1
     false
